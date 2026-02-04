@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+header{
+    background-color: pink;
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.logo{
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 30px;
+}
+nav{
+    float: right;
+    padding-right: 30px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+nav a:hover{
+    color: black;
+}
+/* header done */
+#home{
+    background-image: url('https://picsum.photos/1200/600?tech');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.section-title{
+    text-align: center;
+    padding: 30px 0 20px 0;
+    color:black;
+}
+.column{
+    float: left;
+    width: 31%;
+    margin: 1%;
+}
+#about-lab{
+    background-color:white;
+    padding: 60px 0;
+    clear:both;
+}
+.side-img{
+    float:left;
+    width:35%;
+}
+.side-img img{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px pink;
+}
+.side-text{
+    float: right;
+    width: 50%;
+    padding-top: 30px;
+}
+#footer{
+    height: 40px;
+    color: white;
+    background-color:pink;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}
