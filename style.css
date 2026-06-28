@@ -87,3 +87,35 @@ nav a:hover{
     padding: 20px;
     clear: both;
 }
+button{
+    padding:8px 15px;
+    margin-left:10px;
+    background-color:white;
+    color:pink;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover{
+    background-color:black;
+    color:white;
+}
+.dark{
+    background-color:#222;
+    color:white;
+}
+
+.dark header{
+    background-color:#444;
+}
+
+.dark #about-lab{
+    background-color:#333;
+    color:white;
+}
+
+.dark #footer{
+    background-color:#444;
+}
